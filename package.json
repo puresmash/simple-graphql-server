@@ -1,0 +1,22 @@
+{
+  "name": "simple-graphql-server",
+  "version": "1.0.0",
+  "description": "simple express server practice graphql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json-server": "json-server --watch db.json",
+    "dev": "nodemon server.js"
+  },
+  "author": "swat",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-graphql": "^0.6.3",
+    "graphql": "^0.9.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.9.5",
+    "nodemon": "^1.11.0"
+  }
+}
