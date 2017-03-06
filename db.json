@@ -1,5 +1,80 @@
 {
   "posts": [
     {"id": 1, "title": "first post", "author": "puresmash"}
+  ],
+  "travels": [
+    {
+      "id": "0",
+      "title": "2016/12 Jp"
+
+    },
+    {
+      "id": "1",
+      "title": "2016/06 Jp"
+
+    }
+  ],
+  "accountingMap": [
+    {
+      "id": "0",
+      "title": "aquarium ticket",
+      "date": "2016/12/30",
+      "payment": 3,
+      "credit": [ 0, 1, 2, 5, 6],
+      "amount": 2500,
+      "travelId": "0"
+    },
+    {
+      "id": "1",
+      "title": "dinner fare",
+      "date": "2016/12/31",
+      "payment": 1,
+      "credit": [ 0, 5, 6],
+      "amount": 900,
+      "travelId": "0"
+    },
+    {
+      "id": "2",
+      "title": "bus ticket",
+      "date": "2016/12/30",
+      "payment": 3,
+      "credit": [ 0, 1, 2, 5, 6],
+      "amount": 2500,
+      "travelId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "name": "Swat"
+    },
+    {
+      "id": 1,
+      "name": "Tina"
+    },
+    {
+      "id": 2,
+      "name": "SJ"
+    },
+    {
+      "id": 3,
+      "name": "Ed"
+    },
+    {
+      "id": 4,
+      "name": "Jintin"
+    },
+    {
+      "id": 5,
+      "name": "Ting"
+    },
+    {
+      "id": 6,
+      "name": "Sharon"
+    },
+    {
+      "id": 7,
+      "name": "Kuan"
+    }
   ]
 }
